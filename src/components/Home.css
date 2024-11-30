@@ -1,0 +1,39 @@
+.title {
+    font-size: 3rem;
+    color: #003a91;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.styled-table {
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.styled-table thead tr {
+    background-color: #0047ab;
+    color: #fff;
+}
+
+.styled-table th, 
+.styled-table td {
+    padding: 15px;
+    border: none;
+}
+
+.styled-table tbody tr {
+    transition: background-color 0.2s;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #e6f0ff;
+}
